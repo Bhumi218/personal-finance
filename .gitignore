@@ -1,0 +1,16 @@
+# Personal finance records are local-only and must never be published.
+finance.db
+finance.db-wal
+finance.db-shm
+*.db
+
+# Python and local environment artifacts.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and local configuration.
+.env
+.env.*
+.streamlit/secrets.toml
